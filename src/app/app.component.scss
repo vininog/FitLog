@@ -1,0 +1,31 @@
+@import 'src/styles.scss';
+
+header {
+    background-color: $primary-background-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  
+    nav {
+      a {
+        color: $secondary-text-color;
+        text-decoration: none;
+        margin-right: 1rem;
+  
+        &:hover {
+          color: $primary-text-color;
+        }
+      }
+    }
+  
+    img {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+  
+  main {
+    padding: 1rem;
+    background-color: $neutral-color;
+  }
